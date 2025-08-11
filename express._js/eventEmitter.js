@@ -1,7 +1,6 @@
 const {EventEmitter} = require('events');
 const eventEmitter = new EventEmitter();
 
-
 eventEmitter.on('customeEvent', (data)=>{
     console.log('customeEvent triggering');
 });
